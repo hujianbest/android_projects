@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="device">
+        <item >HAMiLab-M1500微波高温马弗炉</item>
+        <item >分立式真空微波热工设备</item>
+    </string-array>
+</resources>

@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.percent.PercentFrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="cn.hujianbest.iot_terminal.MainActivity">
+
+
+
+    <TextView
+        android:id="@+id/client_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right|bottom"
+        app:layout_heightPercent="7%"
+        app:layout_widthPercent="100%"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left|top"
+        android:gravity="center"
+        android:text="功率:"
+        android:textSize="40sp"
+        app:layout_heightPercent="20%"
+        app:layout_widthPercent="30%" />
+
+    <TextView
+        android:id="@+id/power_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right|top"
+        android:gravity="center"
+        android:textColor="#00ff00"
+        android:background="#000000"
+        android:textSize="50sp"
+        app:layout_heightPercent="20%"
+        app:layout_widthPercent="70%" />
+
+    <TextView
+        android:id="@+id/temperature_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical|right"
+        android:gravity="center"
+        android:textColor="#ff0000"
+        android:background="#000000"
+        android:textSize="50sp"
+        app:layout_heightPercent="20%"
+        app:layout_widthPercent="70%" />
+
+    <android.support.v7.widget.AppCompatSeekBar
+        android:id="@+id/powerset_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:max="255"
+        android:layout_gravity="bottom"
+        android:layout_marginBottom="150dp"
+        />
+
+    <Button
+        android:id="@+id/powerset_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|right"
+        android:text="设定功率"
+        android:layout_marginBottom="50dp"
+        app:layout_heightPercent="10%"
+        app:layout_widthPercent="50%"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:gravity="center"
+        android:text="温度:"
+        android:textSize="40sp"
+        app:layout_heightPercent="20%"
+        app:layout_widthPercent="30%" />
+
+    <TextView
+        android:id="@+id/powerset"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:textSize="40dp"
+        android:gravity="center"
+        android:textColor="@color/colorAccent"
+        android:layout_marginBottom="50dp"
+        app:layout_heightPercent="10%"
+        app:layout_widthPercent="50%" />
+
+
+</android.support.percent.PercentFrameLayout>
+
+
+
